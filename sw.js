@@ -1,6 +1,6 @@
 // sw.js - Service Worker para Nathy Nails
 
-const CACHE_NAME = 'nathynails-v1';
+const CACHE_NAME = 'nathynails-v47';
 const urlsToCache = [
   '/nathynails/',
   '/nathynails/index.html',
@@ -17,7 +17,14 @@ const urlsToCache = [
   '/nathynails/icons/icon-152x152.png',
   '/nathynails/icons/icon-192x192.png',
   '/nathynails/icons/icon-384x384.png',
-  '/nathynails/icons/icon-512x512.png'
+  '/nathynails/icons/icon-512x512.png',
+  '/nathynails/vendor/react.production.min.js',
+  '/nathynails/vendor/react-dom.production.min.js',
+  '/nathynails/vendor/babel.min.js',
+  '/nathynails/vendor/bcrypt.min.js',
+  '/nathynails/vendor/tailwind-browser.js',
+  '/nathynails/vendor/lucide/lucide.css',
+  '/nathynails/vendor/lucide/lucide.woff2'
 ];
 
 // ============================================
