@@ -1,6 +1,6 @@
 // sw.js - Service Worker para Nathy Nails
 
-const CACHE_NAME = 'nathynails-v49';
+const CACHE_NAME = 'nathynails-v50';
 const urlsToCache = [
   '/nathynails/',
   '/nathynails/index.html',
